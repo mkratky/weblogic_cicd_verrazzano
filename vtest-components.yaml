@@ -1,0 +1,41 @@
+apiVersion: core.oam.dev/v1alpha2
+kind: Component
+metadata:
+  name: vtest-domain
+  namespace: vtest
+spec:
+  workload:
+    apiVersion: oam.verrazzano.io/v1alpha1
+    kind: VerrazzanoWebLogicWorkload
+    spec:
+      template:
+        metadata:
+          name: vtest-domain
+          namespace: vtest
+        spec:
+          domainUID: vtestdomain
+          domainHome: /u01/domains/vtestdomain
+          image: fra.ocir.io/sefinland/mrinne/vtest:1.0
+          imagePullSecrets:
+            - name: vtest-repo-credentials
+          domainHomeSourceType: "FromModel"
+          includeServerOutInPodLog: true
+          replicas: 1
+          webLogicCredentialsSecret:
+            name: vtest-weblogic-credentials
+          configuration:
+            introspectorJobActiveDeadlineSeconds: 900
+            model:
+              domainType: WLS
+              modelHome: /u01/wdt/models
+              runtimeEncryptionSecret: vtestdomain-runtime-encrypt-secret
+          serverPod:
+            env:
+              - name: JAVA_OPTIONS
+                value: "-Dweblogic.StdoutDebugEnabled=false"
+              - name: USER_MEM_ARGS
+                value: "-Djava.security.egd=file:/dev/./urandom -Xms64m -Xmx256m "
+              - name: WL_HOME
+                value: /u01/oracle/wlserver
+              - name: MW_HOME
+                value: /u01/oracle
