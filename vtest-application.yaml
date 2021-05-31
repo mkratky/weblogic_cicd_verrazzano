@@ -1,0 +1,25 @@
+apiVersion: core.oam.dev/v1alpha2
+kind: ApplicationConfiguration
+metadata:
+  name: vtest-appconf
+  namespace: vtest
+  annotations:
+    version: v1.0.0
+    description: "Verrazzano test application"
+spec:
+  components:
+    - componentName: vtest-domain
+      traits:
+        - trait:
+            apiVersion: oam.verrazzano.io/v1alpha1
+            kind: MetricsTrait
+            spec:
+              scraper: verrazzano-system/vmi-system-prometheus-0
+        - trait:
+            apiVersion: oam.verrazzano.io/v1alpha1
+            kind: IngressTrait
+            spec:
+              rules:
+                - paths:
+                    - path: "/vtest"
+                      pathType: Prefix
