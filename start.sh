@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Starting WLS in background"
-./startWebLogic.sh &
+nohup ./startWebLogic.sh &
