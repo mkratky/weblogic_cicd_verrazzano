@@ -1,5 +1,5 @@
 <%
-    String msg = "Hi there! Welcome to Verrazzano!";
+    String msg = "Hi Tomi! Welcome to Espoo!";
 %>
 
 Let's print out the message: <%= msg %>
