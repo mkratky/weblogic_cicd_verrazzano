@@ -15,7 +15,7 @@ spec:
         spec:
           domainUID: vtestdomain
           domainHome: /u01/domains/vtestdomain
-          image: fra.ocir.io/sefinland/mrinne/vtest:1.0
+          image: fra.ocir.io/sefinland/mrinne/vtest:1622803553784 #TAG
           imagePullSecrets:
             - name: vtest-repo-credentials
           domainHomeSourceType: "FromModel"
