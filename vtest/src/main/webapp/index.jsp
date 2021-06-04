@@ -1,5 +1,5 @@
 <%
-    String name = "Mika";
+    String msg = "Welcome to Verrazzano!";
 %>
 
-Let's print out my name that is <%= name %>
+Let's print out the message: <%= msg %>
