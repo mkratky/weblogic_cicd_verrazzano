@@ -20,7 +20,7 @@ cp fmw_12.2.1.4.0_wls_lite_generic.jar $HOME/u01/software/
 
 printf "inventory_loc=$HOME/u01/app/oraInventory\ninst_group=builder" > $HOME/u01/software/oraInst.loc
 
-printf "[ENGINE]\nResponse File Version=1.0.0.0.0\n[GENERIC]\nORACLE_HOME=$HOME/u01/app/oracle/middleware\nINSTALL_TYPE=WebLogicServer\nMYORACLESUPPORT_USERNAME=\nMYORACLESUPPORT_PASSWORD=\nDECLINE_SECURITY_UPDATES=true\nSECURITY_UPDATES_VIA_MYORACLESUPPORT=false\nPROXY_HOST=\nPROXY_PORT=\nPROXY_USER=\nPROXY_PWD=\nCOLLECTOR_SUPPORTHUB_URL=" > $HOME/u01/software/wls.rsp
+printf "[ENGINE]\nResponse File Version=1.0.0.0.0\n[GENERIC]\nORACLE_HOME=$HOME/u01/app/oracle/middleware\nINSTALL_TYPE=WebLogic Server\nMYORACLESUPPORT_USERNAME=\nMYORACLESUPPORT_PASSWORD=\nDECLINE_SECURITY_UPDATES=true\nSECURITY_UPDATES_VIA_MYORACLESUPPORT=false\nPROXY_HOST=\nPROXY_PORT=\nPROXY_USER=\nPROXY_PWD=\nCOLLECTOR_SUPPORTHUB_URL=" > $HOME/u01/software/wls.rsp
 
 java -Xmx1024m -jar $HOME/u01/software/fmw_12.2.1.4.0_wls_lite_generic.jar -silent -responseFile $HOME/u01/software/wls.rsp -invPtrLoc $HOME/u01/software/oraInst.loc
 . $WLS_HOME/server/bin/setWLSEnv.sh 
