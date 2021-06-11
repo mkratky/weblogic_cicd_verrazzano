@@ -78,4 +78,4 @@ git config --global user.email "marek.kratky@oracle.com"
 git config --global user.name "Marek Kratky"
 git add vtest-components.yaml
 git commit -m "vtest image changed to $tag"
-git push origin main
+#git push origin main
