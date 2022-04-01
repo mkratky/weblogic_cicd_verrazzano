@@ -63,13 +63,13 @@ $WDT_HOME/bin/discoverDomain.sh \
 -output_dir v8o
 
 cd v8o
-$WIT_HOME/bin/imagetool.sh cache addInstaller --path $HOME/jdk-8u281-linux-x64.tar.gz --type jdk --version 8u281 --force
+$WIT_HOME/bin/imagetool.sh cache addInstaller --path $HOME/jdk-8u311-linux-x64.tar.gz type jdk --version 8u311 --force
 $WIT_HOME/bin/imagetool.sh cache addInstaller --path $HOME/fmw_12.2.1.4.0_wls_lite_generic.jar --type wls --version 12.2.1.4.0 --force
 $WIT_HOME/bin/imagetool.sh cache addInstaller --path $HOME/weblogic-deploy.zip --type wdt --version latest --force
-$WIT_HOME/bin/imagetool.sh create --tag fra.ocir.io/oraseemeaceeociworkshop/mkratky/wls/vtest:$tag --version 12.2.1.4.0 --jdkVersion 8u281 --wdtModel ./wdt-model.yaml --wdtArchive ./wdt-archive.zip --wdtVariables ./vz_variable.properties --resourceTemplates ./application.yaml --wdtModelOnly
+$WIT_HOME/bin/imagetool.sh create --tag fra.ocir.io/fr9qm01oq44x/mkratky/wls/vtest:$tag --version 12.2.1.4.0 --jdkVersion 8u311 --wdtModel ./wdt-model.yaml --wdtArchive ./wdt-archive.zip --wdtVariables ./vz_variable.properties --resourceTemplates ./application.yaml --wdtModelOnly
 
 docker login -u $DOCKER_USER -p $DOCKER_PASSWORD fra.ocir.io
-docker push fra.ocir.io/oraseemeaceeociworkshop/mkratky/wls/vtest:$tag
+docker push fra.ocir.io/fr9qm01oq44x/mkratky/wls/vtest:$tag
 
 cd $HOME
 sed -i "s/vtest:.*#TAG/vtest:$tag #TAG/g" vtest-components.yaml
