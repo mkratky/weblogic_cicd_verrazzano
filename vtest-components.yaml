@@ -17,7 +17,7 @@ spec:
           domainHome: /u01/domains/vtestdomain
           image: fra.ocir.io/fr9qm01oq44x/mkratky/wls/vtest:1649075831875 #TAG
           imagePullSecrets:
-            - name: vtest-repo-credentials
+            - name: ocirsecret
           domainHomeSourceType: "FromModel"
           includeServerOutInPodLog: true
           replicas: 1
