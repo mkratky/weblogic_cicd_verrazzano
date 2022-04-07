@@ -65,7 +65,10 @@
 					<li class='current'><a class='CatOverviewTab current'
 						href='https://verrazzano.io/latest/'> Verrazzano Enterprise Container Platform </a>
 					</li>
-
+					<li class='current'><a class='CatOverviewTab current'
+						href="https://www.oracle.com/cloud/why-oci/" target="_blank"  style="color:#333;text-decoration:none">Why Customers are Choosing OCI</a>
+					</li>	
+					<!-- TODO: add links to Weblogic on OCI Doc -->
 				</ul>
 			</div>
 		</div>
@@ -82,8 +85,6 @@
 
 					<div class="whyOracleListing">
 						<div class="whyOracleListingLayout">
-							<!-- TODO: add links to Weblogic on OCI Doc -->
-							<a href="https://www.oracle.com/cloud/why-oci/" target="_blank"  style="color:#333;text-decoration:none">Why Customers are Choosing OCI</a>
 							<h3>
 								<span style="color: #333; text-decoration: none">Environment
 									Variables</span>
