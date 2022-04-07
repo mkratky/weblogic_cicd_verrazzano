@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="css/cloud3.css">
 
-<title>Oracle Cloud Service - Runtime Environment Details</title>
+<title>WLS on Oracle Cloud - Runtime Environment Details</title>
 
 </head>
 <body>
@@ -29,7 +29,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 	<header class="navbar-fixed-top">
 		<hgroup class="container">
-			<div class="cloudLogo columns">
+			<div class="cloudLogo columns img-center-align">
 				<a href='http://cloud.oracle.com' target="_blank"><img
 					alt="Oracle Cloud logo" src="images/oracle-cloud-logo.png"
 					border="0" /></a>
@@ -65,7 +65,7 @@
 			<div class="container">
 				<ul>
 					<li class='current'><a class='CatOverviewTab current'
-						href='https://cloud.oracle.com/javase'> Oracle Java SE Cloud </a>
+						href='https://verrazzano.io/latest/'> Verrazzano Enterprise Container Platform </a>
 					</li>
 
 				</ul>
@@ -84,8 +84,8 @@
 
 					<div class="whyOracleListing">
 						<div class="whyOracleListingLayout">
-							<!-- TODO: add links to Java SE Getting Started Doc -->
-							<!-- <a href="https://docs.oracle.com/cloud/latest/jcs_gs/index.html" target="_blank"  style="color:#333;text-decoration:none">Getting Started</a> -->
+							<!-- TODO: add links to Weblogic on OCI Doc -->
+							<a href="https://www.oracle.com/cloud/why-oci/" target="_blank"  style="color:#333;text-decoration:none">Why Customers are Choosing OCI</a>
 							<h3>
 								<span style="color: #333; text-decoration: none">Environment
 									Variables</span>
