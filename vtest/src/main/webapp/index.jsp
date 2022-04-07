@@ -133,15 +133,15 @@
 						<li><a href='http://www.oracle.com/corporate/index.html'
 							target="_blank">About Oracle</a></li>
 						<li><a
-							href='http://www.oracle.com/corporate/contact/index.htm'
+							href='https://www.oracle.com/corporate/contact/'
 							target="_blank">Contact Us</a></li>
-						<li><a href='http://www.oracle.com/us/legal/index.html'
-							target="_blank">Legal Notices</a></li>
-						<li><a href='http://www.oracle.com/us/legal/terms/index.html'
-							target="_blank">Terms of Use</a></li>
+						<li><a href='https://www.oracle.com/events/'
+							target="_blank">Events</a></li>
+						<li><a href='https://www.oracle.com/news/'
+							target="_blank">News</a></li>
 						<li><a
-							href='http://www.oracle.com/us/legal/privacy/index.html'
-							target="_blank">Your Privacy Rights</a></li>
+							href='https://blogs.oracle.com/'
+							target="_blank">Blogs</a></li>
 					</ul>
 
 
