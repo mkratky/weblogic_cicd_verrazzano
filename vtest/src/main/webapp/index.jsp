@@ -30,20 +30,18 @@
 	<header class="navbar-fixed-top">
 		<hgroup class="container">
 			<div class="cloudLogo columns img-center-align">
-				<a href='http://cloud.oracle.com' target="_blank"><img
-					alt="Oracle Cloud logo" src="images/oracle-cloud-logo.png"
-					border="0" /></a>
+				<a href='http://cloud.oracle.com' target="_blank"></a>
 			</div>
-
 		</hgroup>
 	</header>
-
 
 	<div class="blueBanner">
 		<div class="container">
 
 			<div class="blueBannerLogo img-center-align">
-				<img src='images/cloud-java.png' alt="" />
+				<a href='http://cloud.oracle.com' target="_blank">
+					<img src='images/oracle-cloud-logo.png' alt="Oracle Cloud Infrastructure" />
+				</a>
 			</div>
 
 			<div class="blueBannerHeading">
