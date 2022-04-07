@@ -48,10 +48,10 @@
 
 			<div class="blueBannerHeading">
 				<h1 class="blueBannerTitleWithSubtitle">
-					<a href='index.html' style="color: #ffffff">Oracle Cloud Infrastructure</a>
+					<a href='https://www.oracle.com/cloud/' style="color: #ffffff">Oracle Cloud Infrastructure</a>
 				</h1>
 				<h2 class="blueBannerSubTitle">Easy, rapid and agile deployment
-					of any Java application.</h2>
+					of any application.</h2>
 				<h2 class="blueBannerSubTitle">Experience full control and
 					flexibility of your application in public cloud.</h2>
 			</div>
