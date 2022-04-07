@@ -13,7 +13,7 @@
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link rel="stylesheet" href="doc/css/cloud3.css">
+<link rel="stylesheet" href="css/cloud3.css">
 
 <title>Oracle Cloud Service - Runtime Environment Details</title>
 
@@ -48,11 +48,10 @@
 
 			<div class="blueBannerHeading">
 				<h1 class="blueBannerTitleWithSubtitle">
-					<a href='index.html' style="color: #ffffff">Oracle Java SE
-						Cloud Service</a>
+					<a href='index.html' style="color: #ffffff">Oracle Cloud Infrastructure</a>
 				</h1>
 				<h2 class="blueBannerSubTitle">Easy, rapid and agile deployment
-					of any Java SE application.</h2>
+					of any Java application.</h2>
 				<h2 class="blueBannerSubTitle">Experience full control and
 					flexibility of your application in public cloud.</h2>
 			</div>
