@@ -46,7 +46,7 @@
 
 			<div class="blueBannerHeading">
 				<h1 class="blueBannerTitleWithSubtitle">
-					<a href='https://www.oracle.com/cloud/' style="color: #ffffff">Dobar Dan JavaCro</a>
+					<a href='https://www.oracle.com/cloud/' style="color: #ffffff">Dobar Dan HROUG</a>
 				</h1>
 				<h2 class="blueBannerSubTitle">Easy, rapid and agile deployment
 					of any application.</h2>
